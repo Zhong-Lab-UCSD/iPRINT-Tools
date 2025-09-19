@@ -3,7 +3,7 @@
 helpFunction()
 {
    echo ""
-   echo "Usage: iPRINT-Tools-Human"
+   echo "Usage: iPRINT-Tools"
    echo -e "\t-a String, Path to read1 fastq file, required"
    echo -e "\t-b String, Path to read2 fastq file, required"
    echo -e "\t-o String, Path to output directory, required"
