@@ -73,7 +73,9 @@ def identifyPPIs_chimericAdj(sorted_x_positive1_9,dicIntCount_positive1_9,dicPro
         rcc=posRCList_1[i]
         orr=orList_1[i]
         chichi=chiList[i]
-        if pAdj<=pCutOff and rcc>coEff*factor and orr>oddsCutoff:
+        #if pAdj<=pCutOff and rcc>coEff*factor and orr>oddsCutoff:
+        if pAdj <= pCutOff and rcc > coEff * factor and orr > oddsCutoff and 'MTRNR' not in gene1 and 'MTRNR' not in gene2 and 'Zrsr1' not in gene1 and 'Zrsr1' not in gene2:
+            lolCount+=1
             lolCount+=1
             list1.append(ha)
             pvalueSig_1.append(pAdj)
