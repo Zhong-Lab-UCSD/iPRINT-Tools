@@ -3,13 +3,13 @@ Data decoding pipeline to process iPRINT-seq fastq data
 
 ## Overview
 _in vivo_ protein-protein interaction sequencing (iPRINT-seq) efficiently maps cell-wide protein-protein interactions _in vivo_ generally including: **Labeling - Encoding - Decoding** steps. Here, we distribute iPRINT-Tools, a standardized data processing pipeline for the decoding step to identify protein-protein interactions from fastq files of iPRINT-seq experiments. The workflow of iPRINT is described as follows:<br />
-![](https://github.com/Zhong-Lab-UCSD/iPROPER-Tools/blob/main/workflow.PNG)
+![](https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/iPRINT_pipeline.png)
 The schematic diagram below describes the various stages of the iPRINT-Tools pipeline, including pre-processing of the raw reads, alignment to the transcriptome, identification of chimeric read pairs and identification of protein-protein interactions.<br />
 ![](https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/iPRINT_Decoding_Workflow.PNG)
 - At the pre-processing stage, with raw read pairs from the sequencing library as input, linker and adapter sequences are first removed. Low-quality and too short reads are then removed to get processed read pairs. 
 - At the alignment stage, the pre-processed read pairs are mapped to the target transcriptome separately to get mapped read pairs. 
 - At the next stage, we identify chimeric read pairs from the mapped read pairs. We select read pairs whose two ends’ primary alignments are mapped to different protein-coding genes and further check their mapping qualities. The read pairs passing the quality checks above are further deduplicated to be identified as chimeric read pairs. 
-- At the stage of protein-protein interactions identification, for each chimeric read pair, we apply various statistical tests and cutoffs, including chi-square test, an odds ratio cutoff and a positive read count cutoff to to finally identify protein-protein interactions (PPIs). 
+- At the stage of protein-protein interactions identification, for each chimeric read pair, we apply various statistical tests and cutoffs, including chi-square test, an odds ratio cutoff and a positive read count cutoff to finally identify protein-protein interactions (PPIs). 
 
 ## Decoding Workflow
 1. Raw read pairs from the iPRINT-seq experiment are present in `.fastq` files.
