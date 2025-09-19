@@ -2,14 +2,15 @@
 Data decoding pipeline to process iPRINT-seq fastq data
 
 ## Overview
-_in vivo_ protein-protein interaction sequencing (iPRINT-seq) efficiently maps cell-wide protein-protein interactions _in vivo_ generally including: **Labeling - Encoding - Decoding** steps. Here, we distribute iPRINT-Tools, a standardized data processing pipeline for the decoding step to identify protein-protein interactions from fastq files of iPRINT-seq experiments. The workflow of iPRINT is described as follows:<br />
+_in vivo_ protein-protein interaction sequencing (iPRINT-seq) efficiently maps cell-wide protein-protein interactions _in vivo_. iPRINT generally includes: **A. Labeling - B. Encoding - C. Decoding** steps.<br /> 
+Here, we distribute iPRINT-Tools, a standardized data processing pipeline for the decoding step to identify protein-protein interactions from fastq files of iPRINT-seq experiments. The workflow of iPRINT is described as follows:<br />
 <p align="center">
   <img src="https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/iPRINT_pipeline.png" width="66%">
 </p>
 The schematic diagram below describes the various stages of the iPRINT-Tools pipeline, including pre-processing of the raw reads, alignment to the transcriptome, identification of chimeric read pairs and identification of protein-protein interactions.<br />
 <br />
 <p align="center">
-  <img src="https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/iPRINT_Decoding_Workflow.PNG" width="80%">
+  <img src="https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/iPRINT_Decoding_Workflow.PNG" width="100%">
 </p>
 - At the pre-processing stage, with raw read pairs from the sequencing library as input, linker and adapter sequences are first removed. Low-quality and too short reads are then removed to get processed read pairs. 
 - At the alignment stage, the pre-processed read pairs are mapped to the target transcriptome separately to get mapped read pairs. 
