@@ -47,7 +47,7 @@ The schematic diagram below describes the various stages of the iPRINT-Tools pip
     - datetime
 ## Additional files required
 **BWA Index of the transcriptome to be aligned**<br />
-You will need to download or build the bwa index of the target transcriptome (Human[RefSeq GRCh38 transcriptome](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/) or Mouse[RefSeq GRCm39 transcriptome](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/)) for iPRINT-Tools to use. Using:<br />
+You will need to download or build the bwa index of the target transcriptome (Human [RefSeq GRCh38 transcriptome](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/) or Mouse [RefSeq GRCm39 transcriptome](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/)) for iPRINT-Tools to use. Using:<br />
 `bwa index /path/to/your/transcriptome.fa`
 
 **Transcript, gene and gene type dictionary file**<br />
