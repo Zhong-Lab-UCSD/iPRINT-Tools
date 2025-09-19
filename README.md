@@ -87,7 +87,7 @@ iPRINT-Tools -a /path/to/read1.fastq
 -d     |Float, odds ratio cutoff used to identify protein-protein interactions, default=1
 -p     |Float, false discovery rate cutoff used to identify protein-protein interactions, default=0.05
 -c     |Float, read count cutoff coefficient used to identify protein-protein interactions, default=2
--j     |String, Job ID to be prepended to the output files and directories, optional, default=iPRINT-Tools"
+-j     |String, Job ID to be prepended to the output files and directories, optional, default=iPRINT-Tools
 -t     |Int, Number of working threads, default=2
 -r     |Char, (T or F), removal of intermediate files or not, default=T
 -h     |Print usage message"     
