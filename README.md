@@ -3,6 +3,7 @@ Data decoding pipeline to process iPRINT-seq fastq data
 
 ## Overview
 _in vivo_ protein-protein interaction sequencing (iPRINT-seq) efficiently maps cell-wide protein-protein interactions _in vivo_. iPRINT generally includes: **A. Labeling - B. Encoding - C. Decoding** steps.<br /> 
+<br /> 
 Here, we distribute iPRINT-Tools, a standardized data processing pipeline for the decoding step to identify protein-protein interactions from fastq files of iPRINT-seq experiments. The workflow of iPRINT is described as follows:<br />
 <p align="center">
   <img src="https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/iPRINT_pipeline.png" width="66%">
