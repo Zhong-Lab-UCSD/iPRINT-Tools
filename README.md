@@ -1,4 +1,4 @@
-ƒ# iPRINT-Tools
+# iPRINT-Tools
 Data decoding pipeline to process iPRINT-seq fastq data
 
 ## Overview
@@ -24,12 +24,12 @@ The schematic diagram below describes the various stages of the iPRINT-Tools pip
 
 
 ## Software Requirements
-- [Cutadapt](https://cutadapt.readthedocs.io/en/stable/) (2.5 or later)
-- [fastp](https://github.com/OpenGene/fastp) (0.14.1 or later)
-- [bwa](https://github.com/lh3/bwa) (0.7.12-r1039 or later)
-- [samtools](http://www.htslib.org/) (1.8 or later)
-- [bedtools](https://bedtools.readthedocs.io/en/latest/) (2.26.0 or later)
-- Python 3.4 or later, the following python libraries are required:<br />
+- [Cutadapt](https://cutadapt.readthedocs.io/en/stable/) (1.18 or later)
+- [fastp](https://github.com/OpenGene/fastp) (0.23.2 or later)
+- [bwa](https://github.com/lh3/bwa) (0.7.17-r1188 or later)
+- [samtools](http://www.htslib.org/) (1.13 or later)
+- [bedtools](https://bedtools.readthedocs.io/en/latest/) (v2.30.0 or later)
+- Python 3.6 or later, the following python libraries are required:<br />
     - sys
     - collections
     - cigar
