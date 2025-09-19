@@ -90,7 +90,7 @@ iPRINT-Tools -a /path/to/read1.fastq
 -j     |String, Job ID to be prepended to the output files and directories, optional, default=iPRINT-Tools
 -t     |Int, Number of working threads, default=2
 -r     |Char, (T or F), removal of intermediate files or not, default=T
--h     |Print usage message"     
+-h     |Print usage message     
     
 </code></pre>
 
