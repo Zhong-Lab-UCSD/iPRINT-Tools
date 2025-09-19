@@ -52,7 +52,7 @@ or<br />
 Mouse: [RefSeq GRCm39 transcriptome](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_rna.fna.gz)
 
 **Transcript, gene and gene type dictionary file**<br />
-You will also need a dictionary file that contains the information of transcript ids to their corresponding gene names/gene ids and corresponding gene types in a csv format with the first column being transcript ids, the second column being gene names and the third column being gene types. Here we provide an example dictionary file for Human [RefSeq GRCh38 genome](https://github.com/Zhong-Lab-UCSD/iPROPER-Tools/blob/main/refSeq_tx_gene_type.csv) or Mouse [RefSeq GRCm39 genome](https://github.com/Zhong-Lab-UCSD/iPROPER-Tools/blob/main/refSeq_tx_gene_type.csv)
+You will also need a dictionary file that contains the information of transcript ids to their corresponding gene names/gene ids and corresponding gene types in a csv format with the first column being transcript ids, the second column being gene names and the third column being gene types. Here we provide an example dictionary file for Human [RefSeq GRCh38 genome](https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/refSeq_tx_gene_type_human.csv) or Mouse [RefSeq GRCm39 genome](https://github.com/Zhong-Lab-UCSD/iPRINT-Tools/blob/main/refSeq_tx_gene_type_mouse.csv)
 
 ## Usage
 **Installation**
